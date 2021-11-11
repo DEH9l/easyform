@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 8rem;
+    color: yellow;
+    font-style: italic;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    width: 420px;
+    max-width: 100%;
+}
+.registerForm{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding: 15px;
+    box-sizing: border-box;
+}
+input{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.d-none{
+    display: none;
+}
+
+.loginForm{
+    width: 100%;
+    display: none;
+    background-color: yellow;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 2rem;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.registerBtn{
+    border: 1px solid black;
+    padding: 0 5px;
+    font-size: 1.5rem;
+    background-color: yellow;
+    border-radius: 15px;
+}
+.loginBtn{
+    border: 1px solid black;
+    padding: 0 5px;
+    font-size: 1.5rem;
+    background-color: aqua;
+    border-radius: 15px;
+}
+.smartSelect{
+    width: 70vw;
+    display: none;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+.yourCarIs{
+    font-size: 5rem;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.containerselectBtn{
+    margin: auto;
+    padding: 20px 0;
+}
+.garageContainer{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.garage{
+    width: 300px;
+    height: 90%;
+    border: 1px solid black;
+}
+.garage img{
+    display: inline-block;
+    width: 90%;
+}
